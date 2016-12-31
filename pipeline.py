@@ -32,7 +32,7 @@ if StrictVersion(seesaw.__version__) < StrictVersion("0.1.5"):
 # Update this each time you make a non-cosmetic change.
 # It will be added to the WARC files and reported to the tracker.
 
-VERSION = "20161227.01"
+VERSION = "20161231.01"
 USER_AGENT = 'ArchiveTeam'
 TRACKER_ID = 'ftpdisco'
 TRACKER_HOST = 'tracker.archiveteam.org'
@@ -165,7 +165,7 @@ def stats_id_function(item):
 project = Project(
     title="FTP Discovery",
     project_html="""
-        <img class="project-logo" alt="Project logo" src="http://archiveteam.org/images/thumb/f/f3/Archive_team.png/235px-Archive_team.png" height="50px" title=""/>
+        <img class="project-logo" alt="Project logo" src="http://archiveteam.org/images/thumb/b/bd/Great_Seal_of_the_United_States.png/240px-Great_Seal_of_the_United_States.png" height="50px" title=""/>
         <h2>FTP discovery.
         <span class="links">
              <a href="http://tracker.archiveteam.org/ftpdisco/">Leaderboard</a>
